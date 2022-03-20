@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#808000"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/returning"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/ET5"
+            android:layout_width="212dp"
+            android:layout_height="43dp"
+            android:background="@xml/shape"
+            android:hint="请输入您想搜索的内容"
+            android:layout_marginRight="10dp"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="52dp"
+            android:layout_height="53dp"
+            android:background="@mipmap/search"
+
+            tools:layout_editor_absoluteX="301dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+</LinearLayout>

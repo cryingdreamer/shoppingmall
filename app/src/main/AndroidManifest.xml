@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.forget.afinally">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.KSMTZ.ShoppingMall.ShoppingCar">
+
+        </activity>
+        <activity android:name="com.KSMTZ.ShoppingMall.ChangeInfo" />
+        <activity android:name="com.KSMTZ.ShoppingMall.EmptyShoppingCar" />
+        <activity android:name="com.KSMTZ.ShoppingMall.HttpActivity" >
+
+        </activity>
+        <activity android:name="com.KSMTZ.ShoppingMall.Login" />
+        <activity android:name="com.KSMTZ.ShoppingMall.Loginning" />
+        <activity android:name="com.KSMTZ.ShoppingMall.Mainweb" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+        <activity android:name="com.KSMTZ.ShoppingMall.My" />
+        <activity android:name="com.KSMTZ.ShoppingMall.Member" />
+        <activity android:name="com.KSMTZ.ShoppingMall.Register" />
+        <activity android:name="com.KSMTZ.ShoppingMall.view.view.good.Goodsliebiao" />
+        <activity android:name="com.KSMTZ.ShoppingMall.view.view.good.GoodsSearch" />
+        <activity android:name="com.KSMTZ.ShoppingMall.view.view.weather.Weather" />
+        <activity android:name="com.KSMTZ.ShoppingMall.view.view.good.GoodsDetailActivity" />
+    </application>
+
+</manifest>

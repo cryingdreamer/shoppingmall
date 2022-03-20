@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        >
+
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#808000" />
+        <ImageView
+            android:id="@+id/return_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:src="@mipmap/returning" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:gravity="center"
+
+            android:text="商品搜索结果"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        ></View>
+
+    <ListView
+        android:id="@+id/lv_goodssearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lv_goodssearch"
+        android:divider="#00000000"
+        android:dividerHeight="0.1dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/search_TV"
+        android:text="您所需要找的物品不存在"
+        android:visibility="gone"/>
+</LinearLayout>
